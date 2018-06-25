@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A917FAF20E0D92C008E236D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A917FAE20E0D92C008E236D /* AppDelegate.m */; };
+		4A917FB220E0D92C008E236D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A917FB120E0D92C008E236D /* ViewController.m */; };
+		4A917FB520E0D92C008E236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A917FB320E0D92C008E236D /* Main.storyboard */; };
+		4A917FB720E0D92D008E236D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A917FB620E0D92D008E236D /* Assets.xcassets */; };
+		4A917FBA20E0D92D008E236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A917FB820E0D92D008E236D /* LaunchScreen.storyboard */; };
+		4A917FBD20E0D92D008E236D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A917FBC20E0D92D008E236D /* main.m */; };
+		4A917FC420E0D951008E236D /* DiffMatchPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC320E0D951008E236D /* DiffMatchPatch.framework */; };
+		4A917FC520E0D951008E236D /* DiffMatchPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC320E0D951008E236D /* DiffMatchPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FD120E0DA37008E236D /* DiffMatchPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC820E0DA36008E236D /* DiffMatchPatch.framework */; };
+		4A917FD220E0DA37008E236D /* CWStatusBarNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC920E0DA36008E236D /* CWStatusBarNotification.framework */; };
+		4A917FD320E0DA37008E236D /* MDRadialProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCA20E0DA36008E236D /* MDRadialProgress.framework */; };
+		4A917FD420E0DA37008E236D /* LITUILegacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCB20E0DA36008E236D /* LITUILegacy.framework */; };
+		4A917FD520E0DA37008E236D /* BEMCheckBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCC20E0DA36008E236D /* BEMCheckBox.framework */; };
+		4A917FD620E0DA37008E236D /* LITUICommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCD20E0DA36008E236D /* LITUICommon.framework */; };
+		4A917FD720E0DA37008E236D /* LITNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCE20E0DA36008E236D /* LITNetwork.framework */; };
+		4A917FD820E0DA37008E236D /* LITCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCF20E0DA36008E236D /* LITCommon.framework */; };
+		4A917FD920E0DA37008E236D /* LITUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FD020E0DA36008E236D /* LITUI.framework */; };
+		4A917FDA20E0DADA008E236D /* BEMCheckBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCC20E0DA36008E236D /* BEMCheckBox.framework */; };
+		4A917FDB20E0DADA008E236D /* BEMCheckBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCC20E0DA36008E236D /* BEMCheckBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FDC20E0DADA008E236D /* CWStatusBarNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC920E0DA36008E236D /* CWStatusBarNotification.framework */; };
+		4A917FDD20E0DADA008E236D /* CWStatusBarNotification.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC920E0DA36008E236D /* CWStatusBarNotification.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FDE20E0DADA008E236D /* DiffMatchPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC820E0DA36008E236D /* DiffMatchPatch.framework */; };
+		4A917FDF20E0DADA008E236D /* DiffMatchPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FC820E0DA36008E236D /* DiffMatchPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FE020E0DADA008E236D /* LITCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCF20E0DA36008E236D /* LITCommon.framework */; };
+		4A917FE120E0DADA008E236D /* LITCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCF20E0DA36008E236D /* LITCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FE220E0DADA008E236D /* LITNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCE20E0DA36008E236D /* LITNetwork.framework */; };
+		4A917FE320E0DADA008E236D /* LITNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCE20E0DA36008E236D /* LITNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FE420E0DADA008E236D /* LITUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FD020E0DA36008E236D /* LITUI.framework */; };
+		4A917FE520E0DADA008E236D /* LITUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FD020E0DA36008E236D /* LITUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FE620E0DADA008E236D /* LITUICommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCD20E0DA36008E236D /* LITUICommon.framework */; };
+		4A917FE720E0DADA008E236D /* LITUICommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCD20E0DA36008E236D /* LITUICommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FE820E0DADA008E236D /* LITUILegacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCB20E0DA36008E236D /* LITUILegacy.framework */; };
+		4A917FE920E0DADA008E236D /* LITUILegacy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCB20E0DA36008E236D /* LITUILegacy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A917FEA20E0DADA008E236D /* MDRadialProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCA20E0DA36008E236D /* MDRadialProgress.framework */; };
+		4A917FEB20E0DADA008E236D /* MDRadialProgress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A917FCA20E0DA36008E236D /* MDRadialProgress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A917FC620E0D951008E236D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A917FDB20E0DADA008E236D /* BEMCheckBox.framework in Embed Frameworks */,
+				4A917FE720E0DADA008E236D /* LITUICommon.framework in Embed Frameworks */,
+				4A917FE920E0DADA008E236D /* LITUILegacy.framework in Embed Frameworks */,
+				4A917FEB20E0DADA008E236D /* MDRadialProgress.framework in Embed Frameworks */,
+				4A917FE120E0DADA008E236D /* LITCommon.framework in Embed Frameworks */,
+				4A917FDD20E0DADA008E236D /* CWStatusBarNotification.framework in Embed Frameworks */,
+				4A917FDF20E0DADA008E236D /* DiffMatchPatch.framework in Embed Frameworks */,
+				4A917FC520E0D951008E236D /* DiffMatchPatch.framework in Embed Frameworks */,
+				4A917FE320E0DADA008E236D /* LITNetwork.framework in Embed Frameworks */,
+				4A917FE520E0DADA008E236D /* LITUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A917FAA20E0D92C008E236D /* testDiffMatchPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDiffMatchPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A917FAD20E0D92C008E236D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A917FAE20E0D92C008E236D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A917FB020E0D92C008E236D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A917FB120E0D92C008E236D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A917FB420E0D92C008E236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A917FB620E0D92D008E236D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A917FB920E0D92D008E236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A917FBB20E0D92D008E236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A917FBC20E0D92D008E236D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A917FC320E0D951008E236D /* DiffMatchPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DiffMatchPatch.framework; sourceTree = "<group>"; };
+		4A917FC820E0DA36008E236D /* DiffMatchPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiffMatchPatch.framework; path = ../LITMonitor/DiffMatchPatch.framework; sourceTree = "<group>"; };
+		4A917FC920E0DA36008E236D /* CWStatusBarNotification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CWStatusBarNotification.framework; path = ../LITMonitor/CWStatusBarNotification.framework; sourceTree = "<group>"; };
+		4A917FCA20E0DA36008E236D /* MDRadialProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDRadialProgress.framework; path = ../LITMonitor/MDRadialProgress.framework; sourceTree = "<group>"; };
+		4A917FCB20E0DA36008E236D /* LITUILegacy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LITUILegacy.framework; path = ../LITMonitor/LITUILegacy.framework; sourceTree = "<group>"; };
+		4A917FCC20E0DA36008E236D /* BEMCheckBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BEMCheckBox.framework; path = ../LITMonitor/BEMCheckBox.framework; sourceTree = "<group>"; };
+		4A917FCD20E0DA36008E236D /* LITUICommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LITUICommon.framework; path = ../LITMonitor/LITUICommon.framework; sourceTree = "<group>"; };
+		4A917FCE20E0DA36008E236D /* LITNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LITNetwork.framework; path = ../LITMonitor/LITNetwork.framework; sourceTree = "<group>"; };
+		4A917FCF20E0DA36008E236D /* LITCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LITCommon.framework; path = ../LITMonitor/LITCommon.framework; sourceTree = "<group>"; };
+		4A917FD020E0DA36008E236D /* LITUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LITUI.framework; path = ../LITMonitor/LITUI.framework; sourceTree = "<group>"; };
+		4A917FEC20E0DAE1008E236D /* LITUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITUI.framework; sourceTree = "<group>"; };
+		4A917FED20E0DAE1008E236D /* CWStatusBarNotification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CWStatusBarNotification.framework; sourceTree = "<group>"; };
+		4A917FEE20E0DAE1008E236D /* LITNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITNetwork.framework; sourceTree = "<group>"; };
+		4A917FEF20E0DAE1008E236D /* LITUICommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITUICommon.framework; sourceTree = "<group>"; };
+		4A917FF020E0DAE2008E236D /* LITCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITCommon.framework; sourceTree = "<group>"; };
+		4A917FF120E0DAE2008E236D /* LITUILegacy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITUILegacy.framework; sourceTree = "<group>"; };
+		4A917FF220E0DAE2008E236D /* DiffMatchPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiffMatchPatch.framework; path = ../LITMonitor/DiffMatchPatch.framework; sourceTree = "<group>"; };
+		4A917FF320E0DAE2008E236D /* BEMCheckBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BEMCheckBox.framework; sourceTree = "<group>"; };
+		4A917FF420E0DAE3008E236D /* MDRadialProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MDRadialProgress.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A917FA720E0D92C008E236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A917FD120E0DA37008E236D /* DiffMatchPatch.framework in Frameworks */,
+				4A917FDC20E0DADA008E236D /* CWStatusBarNotification.framework in Frameworks */,
+				4A917FE420E0DADA008E236D /* LITUI.framework in Frameworks */,
+				4A917FE220E0DADA008E236D /* LITNetwork.framework in Frameworks */,
+				4A917FD220E0DA37008E236D /* CWStatusBarNotification.framework in Frameworks */,
+				4A917FD320E0DA37008E236D /* MDRadialProgress.framework in Frameworks */,
+				4A917FD420E0DA37008E236D /* LITUILegacy.framework in Frameworks */,
+				4A917FD520E0DA37008E236D /* BEMCheckBox.framework in Frameworks */,
+				4A917FE620E0DADA008E236D /* LITUICommon.framework in Frameworks */,
+				4A917FD620E0DA37008E236D /* LITUICommon.framework in Frameworks */,
+				4A917FEA20E0DADA008E236D /* MDRadialProgress.framework in Frameworks */,
+				4A917FD720E0DA37008E236D /* LITNetwork.framework in Frameworks */,
+				4A917FE820E0DADA008E236D /* LITUILegacy.framework in Frameworks */,
+				4A917FD820E0DA37008E236D /* LITCommon.framework in Frameworks */,
+				4A917FDE20E0DADA008E236D /* DiffMatchPatch.framework in Frameworks */,
+				4A917FD920E0DA37008E236D /* LITUI.framework in Frameworks */,
+				4A917FE020E0DADA008E236D /* LITCommon.framework in Frameworks */,
+				4A917FC420E0D951008E236D /* DiffMatchPatch.framework in Frameworks */,
+				4A917FDA20E0DADA008E236D /* BEMCheckBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A917FA120E0D92C008E236D = {
+			isa = PBXGroup;
+			children = (
+				4A917FC320E0D951008E236D /* DiffMatchPatch.framework */,
+				4A917FF320E0DAE2008E236D /* BEMCheckBox.framework */,
+				4A917FED20E0DAE1008E236D /* CWStatusBarNotification.framework */,
+				4A917FF220E0DAE2008E236D /* DiffMatchPatch.framework */,
+				4A917FF020E0DAE2008E236D /* LITCommon.framework */,
+				4A917FEE20E0DAE1008E236D /* LITNetwork.framework */,
+				4A917FEC20E0DAE1008E236D /* LITUI.framework */,
+				4A917FEF20E0DAE1008E236D /* LITUICommon.framework */,
+				4A917FF120E0DAE2008E236D /* LITUILegacy.framework */,
+				4A917FF420E0DAE3008E236D /* MDRadialProgress.framework */,
+				4A917FAC20E0D92C008E236D /* testDiffMatchPatch */,
+				4A917FAB20E0D92C008E236D /* Products */,
+				4A917FC720E0DA35008E236D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A917FAB20E0D92C008E236D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A917FAA20E0D92C008E236D /* testDiffMatchPatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A917FAC20E0D92C008E236D /* testDiffMatchPatch */ = {
+			isa = PBXGroup;
+			children = (
+				4A917FAD20E0D92C008E236D /* AppDelegate.h */,
+				4A917FAE20E0D92C008E236D /* AppDelegate.m */,
+				4A917FB020E0D92C008E236D /* ViewController.h */,
+				4A917FB120E0D92C008E236D /* ViewController.m */,
+				4A917FB320E0D92C008E236D /* Main.storyboard */,
+				4A917FB620E0D92D008E236D /* Assets.xcassets */,
+				4A917FB820E0D92D008E236D /* LaunchScreen.storyboard */,
+				4A917FBB20E0D92D008E236D /* Info.plist */,
+				4A917FBC20E0D92D008E236D /* main.m */,
+			);
+			path = testDiffMatchPatch;
+			sourceTree = "<group>";
+		};
+		4A917FC720E0DA35008E236D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A917FCC20E0DA36008E236D /* BEMCheckBox.framework */,
+				4A917FC920E0DA36008E236D /* CWStatusBarNotification.framework */,
+				4A917FC820E0DA36008E236D /* DiffMatchPatch.framework */,
+				4A917FCF20E0DA36008E236D /* LITCommon.framework */,
+				4A917FCE20E0DA36008E236D /* LITNetwork.framework */,
+				4A917FD020E0DA36008E236D /* LITUI.framework */,
+				4A917FCD20E0DA36008E236D /* LITUICommon.framework */,
+				4A917FCB20E0DA36008E236D /* LITUILegacy.framework */,
+				4A917FCA20E0DA36008E236D /* MDRadialProgress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A917FA920E0D92C008E236D /* testDiffMatchPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A917FC020E0D92D008E236D /* Build configuration list for PBXNativeTarget "testDiffMatchPatch" */;
+			buildPhases = (
+				4A917FA620E0D92C008E236D /* Sources */,
+				4A917FA720E0D92C008E236D /* Frameworks */,
+				4A917FA820E0D92C008E236D /* Resources */,
+				4A917FC620E0D951008E236D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testDiffMatchPatch;
+			productName = testDiffMatchPatch;
+			productReference = 4A917FAA20E0D92C008E236D /* testDiffMatchPatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A917FA220E0D92C008E236D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = traintrackcn;
+				TargetAttributes = {
+					4A917FA920E0D92C008E236D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A917FA520E0D92C008E236D /* Build configuration list for PBXProject "testDiffMatchPatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A917FA120E0D92C008E236D;
+			productRefGroup = 4A917FAB20E0D92C008E236D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A917FA920E0D92C008E236D /* testDiffMatchPatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A917FA820E0D92C008E236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A917FBA20E0D92D008E236D /* LaunchScreen.storyboard in Resources */,
+				4A917FB720E0D92D008E236D /* Assets.xcassets in Resources */,
+				4A917FB520E0D92C008E236D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A917FA620E0D92C008E236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A917FB220E0D92C008E236D /* ViewController.m in Sources */,
+				4A917FBD20E0D92D008E236D /* main.m in Sources */,
+				4A917FAF20E0D92C008E236D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A917FB320E0D92C008E236D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A917FB420E0D92C008E236D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A917FB820E0D92D008E236D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A917FB920E0D92D008E236D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A917FBE20E0D92D008E236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A917FBF20E0D92D008E236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A917FC120E0D92D008E236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = testDiffMatchPatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ios.testDiffMatchPatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A917FC220E0D92D008E236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = testDiffMatchPatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ios.testDiffMatchPatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A917FA520E0D92C008E236D /* Build configuration list for PBXProject "testDiffMatchPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A917FBE20E0D92D008E236D /* Debug */,
+				4A917FBF20E0D92D008E236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A917FC020E0D92D008E236D /* Build configuration list for PBXNativeTarget "testDiffMatchPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A917FC120E0D92D008E236D /* Debug */,
+				4A917FC220E0D92D008E236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A917FA220E0D92C008E236D /* Project object */;
+}
